@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etAramaKelimesi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mekan adı veya İlçe yazın..."
+        android:background="#FFFFFF"
+        android:paddingLeft="15dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerKategori"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnFiltrele"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ARA / FİLTRELE"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/lvSorguSonuclari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>
